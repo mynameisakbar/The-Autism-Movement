@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Museo500Regular';
+    src: url('museo500-regular-webfont.eot');
+    src: url('museo500-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museo500-regular-webfont.woff') format('woff'),
+         url('museo500-regular-webfont.ttf') format('truetype'),
+         url('museo500-regular-webfont.svg#Museo500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ui-body-c{
+	background: url("http://mynameisakbar.com/aas-site/assets/bg.jpg") no-repeat !important;
+	background-size: 100% 100% !important;
+}
+
+/*content styling*/
+
+.fill-width-img{
+	width:100%;
+}
+
+.title-image{
+	width: 280px;
+	margin: 0 auto;
+}
+
+.aas-button{
+	width:200px;
+	margin: 0 auto;
+}
+
+.aas-button img{
+	width: 200px;
+}
+
+.title-image{
+	width: 280px;
+	margin: 0 auto;
+}
+
+.top-banner{
+	margin-top: 20px;
+}
+
+.content-text{
+	font-family: 'Museo500Regular'!important;
+	font-size: 14px!important;
+	line-height: 21px!important;
+	padding: 0px 10px!important;
+}
+
+table{
+	width: 270px;
+	border:1px solid black;
+	font-size: 8px;
+}
+
+.bottom-border{
+	border-bottom: 1px solid black;
+}
+
+.right-border{
+	border-right: 1px solid black;
+}
+
+#carousel_scrollpane{
+	height:350px!important;
+}
+
+#carousel_item_0,#carousel_item_1,#carousel_item_2,#carousel_item_3,#carousel_item_4{
+	height:340px!important;
+}
+
+.pscroll{
+	width:270px;
+	font-size: 11px;
+}
+
+
+/*Footer styling */
+
+.ui-grid-d{
+	background: url("http://mynameisakbar.com/aas-site/assets/footerbg.jpg") repeat!important;
+}
+
+.ui-grid-d li{
+	text-align: center!important;
+	color:#e5e5e5!important;
+	font-family: 'Museo500Regular'!important;
+	padding: 2%!important;
+	font-size: 10px!important;
+}
+
+.ui-btn-active{
+	background: url("http://mynameisakbar.com/aas-site/assets/footerbgselected.jpg") repeat!important;
+}
+
+.ui-btn-inner{
+	padding: 0px !important;
+	white-space: normal;
+}
+
+.ui-btn-text{
+	color:#e5e5e5!important;
+}
+
+.ui-grid-d > :nth-child(n){
+	height: 45px;
+}
+
+a{
+	text-decoration: none!important;
+}

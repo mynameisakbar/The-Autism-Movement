@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/> 
+		<link rel="apple-touch-icon" sizes="57×57" href="assets/ati-114.png" />
+		<link rel="apple-touch-icon" sizes="72×72" href="assets/ati-72.png"/>
+		<link rel="apple-touch-icon" sizes="114×114" href="assets/ati-57.png" /> 
+		<title>Autism Association Singapore</title>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile.structure-1.1.1.min.css">
+		<link rel="stylesheet" href="css/carousel.css" type="text/css"/>
+		<link rel = "stylesheet" href="css/style.css"/>
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+		<script src="js/carousel.js"></script>
+		<script src="js/script.js"></script>	
+	</head>
+	<body>
+		<div data-role="page" id="why">
+				<img class="fill-width-img" src="http://mynameisakbar.com/aas-site/assets/lack-of-autism.png"/>
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+						<p>Although it is estimated that there are at least 24,000 people with autism in Singapore, including 18,000 over 19 years old, there are only 2 autism-focused Day Activity Centre in Singapore, they are Eden Centre for Adults and St. Andrew Autism Centre. In particular, Eden Centre for Adults is a Day Activity Centre which serves people with autism from 18 to 55 years old.</p>
+
+						<p>There is a significant demand for a second Eden Centre for Adults.</p>
+
+						<p>Your donations will be pooled and become part of the reserve for establishing the second Eden Centre for Adults.</p>
+
+						<div class="aas-button"><a href="" target="_blank"><img src="http://mynameisakbar.com/aas-site/assets/donate-now.png"/></a></div>
+					</div>	
+				</div><!-- /content -->
+
+				<div data-role="footer" data-id="aas-footer" data-position="fixed">
+
+					<div data-role="navbar">
+						<ul>
+							<li class="ui-btn-active ui-state-persist"><a href="#why">Why Donate?</a></li>
+							<li><a href="#About">About Us</a></li>
+							<li><a href="#autism">What is Autism?</a></li>
+							<li><a href="#aas">AAS</a></li>
+							<li><a href="#sponsor">Sponsors</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+		<div data-role="page" id="About">
+				<img class="fill-width-img top-banner" src="http://mynameisakbar.com/aas-site/assets/about-banner.png"/>
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+						<p>The Autism Movement is a fundraising project initiated by 3 youths who see a need to raise awareness for people with autism in Singapore.</p>
+
+						<p>This project is under the Citi-YMCA Youth For Causes 2012.</p>
+
+						<img src="http://mynameisakbar.com/aas-site/assets/citi-ymca.jpg" class="fill-width-img"/> 
+
+					</div>	
+				</div><!-- /content -->
+
+				<div data-role="footer" data-id="aas-footer" data-position="fixed">
+
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#why">Why Donate?</a></li>
+							<li class="ui-btn-active ui-state-persist"><a href="#About">About Us</a></li>
+							<li><a href="#autism">What is Autism?</a></li>
+							<li><a href="#aas">AAS</a></li>
+							<li><a href="#sponsor">Sponsors</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+		<div data-role="page" id="autism">
+				<img class="fill-width-img" src="http://mynameisakbar.com/aas-site/assets/kids.jpg"></img>
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+								<div class="title-image"><img src="http://mynameisakbar.com/aas-site/assets/what-autism.png"/></div>
+
+								<div id="contentzzz" style="height:100%;width:290px; margin:0 auto;">                    					
+											<div style="height:100%;width:290px;">
+
+												<div style="height:400px;width:290px;">
+													<div  id="carousel" class="carousel">							
+														<div id="carousel_scrollpane" class="carousel-content">
+															<div id="carousel_content" class="carousel-content-scroller"> </div>
+														</div>
+														<div id="carousel_nav" class="carousel-nav">
+															<div id="carousel_mid" class="carousel-mid"></div>
+														</div>
+													</div>
+												</div>
+											<div id="carousel_template" style="display:none">
+												<div class="carousel-item">
+													<div id="carousel_item_@{id}" >
+														@{html}				      								
+													</div>
+												</div>
+										    </div>
+
+											</div>
+									<script>
+									var carousel = new $.widgets.Carousel( {
+									 	uuid : "carousel",
+										args : { "scrollInterval" : 600,"itemWidth":290
+										},
+										  	value : [
+
+													{ "html" : "<p class='pscroll'>Autism is a life-long brain disorder that is normally diagnosed in early childhood. People with autism have difficulties communicating, forming relationships with others and find it hard to make sense of the works around them.</p> <p class='pscroll'>People with autism may also have unusual patterns of language development, narrow interests and engage in repetitive and sometimes challenging behaviors.</p> <p class='pscroll'>Boys are 4 times more likely to be diagnosed with autism than girls. Autism affects people of all racial, ethnic and socioeconomic backgrounds</p>"
+
+											  	    },
+
+													{ "html" : "<table><thead><tr><th width='40%'class='bottom-border right-border'>Myth</th><th width='60%' class='bottom-border'>Fact</th> </tr> </thead> <tbody>  <tr> <td class='right-border bottom-border'>Individuals with autism spectrum disorder cannot lead independent and successful lives</td> <td class='bottom-border'>Given appropriate education, many students with autism spectrum disorder will grow up to be successful contributors to society.</td> </tr><tr> <td class='right-border'>People with autism cannot talk.</td> <td>Communication is more than talking. Some students with autism will develop speech seemingly effortlessly, but will require help to communicate appropriately with their peers. Others will require assistance to communicate their basic needs and wants, using a combination of words, gestures, and augmentative communication systems such as PECS. </td> </tr> </tbody> </table>"
+												
+											  	    },
+
+											  	    { "html" : "<table> <thead> <tr> <th width='30%' class='bottom-border right-border'>Myth</th> <th width='70%' class='bottom-border'>Fact</th> </tr> </thead> <tbody> <tr> <td class='bottom-border right-border'>Autism is the result of bad parenting</td> <td class='bottom-border'>Research suggests that autism can be caused by a variety of conditions that affect brain development. There is no clinical evidence that parental behaviour can cause or contribute to the development of autism.</td> </tr> <tr> <td class='right-border'>All individuals with autism spectrum disorder have special talent or 'savant' skills.</td> <td>10% of individuals with autism spectrum disorder may have special abilities in areas like music, art, mathematical calculations, memory and manual dexterity. The majority however, may have areas of high performance that relate to their special interests or obsessions. These skills are often referred to as 'splinter skills', as they are often not consistent with skills in other areas of development.</td> </tr> </tbody> </table>"
+												
+											  	    },
+
+											  	    { "html" :"<table> <thead> <tr> <th width='40%' class='bottom-border right-border'>Myth</th> <th width='60%' class='bottom-border'>Fact</th> </tr> </thead> <tbody> <tr> <td class='bottom-border right-border'>People with autism do not make eye contact.</td> <td class='bottom-border'>Contrary to popular belief, many people with autism do make eye contact on their own terms. When they feel relaxed and confident with the communication partner, eye contact can be quite spontaneous. It is NEVER a good idea to force a person with autism to have eye contact with you.</td> </tr> <tr> <td class='right-border'>Individuals with autism spectrum disorder appear to avoid social contact.</td> <td>Individuals with autism spectrum disorder are often keen to make friends but, due to their disability, find this difficult.</td> </tr> </tbody> </table>"
+												
+											  	    },
+
+											  	    { "html" :"<table> <thead> <tr> <th width='40%' class='bottom-border right-border'>Myth</th> <th width='60%' class='bottom-border'>Fact</th> </tr> </thead> <tbody> <tr> <td class='bottom-border right-border'>Autism can be outgrown.</td> <td class='bottom-border'>Children do not 'outgrow' autism but symptoms may lessen or change as the child develops and receives educational interventions. </td> </tr> <tr> <td class='right-border'>People with autism do not have feelings and thus are unable to show affection.</td> <td>People with autism can and do give affection. However, due to differences in sensory processing and social understanding, the display of affection may appear different from typical people. Understanding and acceptance of these differences is the key. </td> </tr> </tbody> </table>"
+											  	    },
+											]
+										});					  
+									</script>
+								</div>
+					</div>
+
+				</div> 
+
+				<div data-role="footer" data-id="aas-footer" data-position="fixed">
+
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#why">Why Donate?</a></li>
+							<li><a href="#About">About Us</a></li>
+							<li class="ui-btn-active ui-state-persist"><a href="#autism">What is Autism?</a></li>
+							<li><a href="#aas">AAS</a></li>
+							<li><a href="#sponsor">Sponsors</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+		<div data-role="page" id="aas">
+				<img class="fill-width-img" src="http://mynameisakbar.com/aas-site/assets/AAS-BANNER.png"></img>
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+
+						<p>The mission of the AAS is to initiate, organise and support provision of a broad spectrum of services for people with autism in Singapore. Such services to encompass education, vocational and life skills training and residential care.</p>
+
+						<p>Under the flagship of AAS, Eden Children's Centre (Clementi and Simei), Eden School (Bukit Batok) and Eden Centre for Adults (Hougang) provide education, training and welfare for people with autism.</p>
+
+						<p>All of these institutions provide delicate care and quality education and training for people with autism so as to explore and maximize their potential and talents.</p>
+
+						<p>For more information about the Autism Association (Singapore), please visit <a href="http://www.autismlinks.org.sg">www.autismlinks.org.sg</a>.</p>
+
+					</div>	
+				</div><!-- /content -->
+
+				<div data-role="footer" data-id="aas-footer" data-position="fixed">
+
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#why">Why Donate?</a></li>
+							<li><a href="#About">About Us</a></li>
+							<li><a href="#autism">What is Autism?</a></li>
+							<li class="ui-btn-active ui-state-persist"><a href="#aas">AAS</a></li>
+							<li><a href="#sponsor">Sponsors</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+		<div data-role="page" id="sponsor">
+				<img class="fill-width-img top-banner" src="http://mynameisakbar.com/aas-site/assets/sponsor-banner.png"></img>
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+
+						<h3>This application is proudly sponsored by:</h3>
+
+						<a href="http://2359media.com" target="_blank"> <img src="http://mynameisakbar.com/aas-site/assets/2359.png" class="fill-width-img"/> </a>
+
+						<h3>The Autism Movement is supported and endorsed by:</h3>
+
+						<img src="http://mynameisakbar.com/aas-site/assets/citi-ymca.jpg" class="fill-width-img"/> 
+
+						<p>Information on 'Myths & Facts about Autism' is courtesy from the Autism Resource Centre (Singapore).</p>
+
+						<p>For more information on Autism, you may visit: <a href="http://www.autismlinks.org.sg">www.autismlinks.org.sg</a>.</p>
+
+					</div>	
+				</div><!-- /content -->
+
+				<div data-role="footer" data-id="aas-footer" data-position="fixed">
+
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#why">Why Donate?</a></li>
+							<li><a href="#About">About Us</a></li>
+							<li><a href="#autism">What is Autism?</a></li>
+							<li><a href="#aas">AAS</a></li>
+							<li class="ui-btn-active ui-state-persist"><a href="#sponsor">Sponsors</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer -->
+
+		</div><!-- /page -->
+
+		<div data-role="page" id="splash">
+
+				<div data-role="content">	
+					
+					<div class="content-text">
+
+						<img src="http://mynameisakbar.com/aas-site/assets/aas-logo.jpg" class="fill-width-img"/>
+
+						<p>Thank you for visiting this application!</p>
+
+						<p>By visiting this application, you are supporting people with autism under the care of the Autism Association (Singapore)</p>
+
+						<p>This application is part of The Autism Movement - a fundraising project supported and endorsed by Citi-YMCA Youth For Causes 2012.</p>
+
+						<div class="aas-button"><a href="#why"><img src="http://mynameisakbar.com/aas-site/assets/enter-site.png"/></a></div>
+
+					</div>	
+				</div><!-- /content -->
+
+		</div><!-- /page -->
+
+	</body>
+</html>
